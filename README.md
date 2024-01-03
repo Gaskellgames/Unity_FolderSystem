@@ -7,14 +7,14 @@ Extends Unity by adding in custom folder visuals in the scene hierarchy and proj
 
 There are many designs, each unique and easy to identify:
 
-... Image TBC ...
+<a href="https://imgur.com/X0mlHlm.png"><img src="https://imgur.com/X0mlHlm.png" title="source: imgur.com" /></a>
 
 
 # How can I add more project folder designs?
 
-Simply add a new texture (256x256) into the Textures folder of the Folder System files:
+Simply add a new texture (256x256) into the Textures folder of the Folder System files, and the texture will auto-apply to any folder of the same ame.
 
-... Image TBC ...
+<a href="https://imgur.com/X3tNANq.png"><img src="https://imgur.com/X3tNANq.png" title="source: imgur.com" /></a>
 
 
 # GameObject menu item
@@ -37,6 +37,6 @@ As projects get bigger, they tend to get cluttered in the scene. It's very helpf
 
 The folders each have a componant that allows you to edit the individual folder's style:
 
-<a href="https://imgur.com/1nQSyGn.png"><img src="https://imgur.com/1nQSyGn.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/rDL1OUc.png"><img src="https://imgur.com/rDL1OUc.png" title="source: imgur.com" /></a>
 
-<a href="https://imgur.com/2XvFlrh.png"><img src="https://imgur.com/2XvFlrh.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/lXHk2xz.png"><img src="https://imgur.com/lXHk2xz.png" title="source: imgur.com" /></a>
