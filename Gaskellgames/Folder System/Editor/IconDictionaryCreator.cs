@@ -94,6 +94,8 @@ namespace Gaskellgames.FolderSystem
             }
             
             iconDictionary = dictionary;
+            
+            Debug.Log("Folder System: project folder icons rebuilt.");
         }
 
         #endregion

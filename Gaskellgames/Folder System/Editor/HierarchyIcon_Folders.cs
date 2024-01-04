@@ -53,12 +53,20 @@ namespace Gaskellgames.FolderSystem
             icon_FolderDisabledFull = InspectorUtility.TintTexture(icon_FolderFull, InspectorUtility.textDisabledColor);
             icon_FolderActiveEmpty = InspectorUtility.TintTexture(icon_FolderEmpty, InspectorUtility.textNormalColor);
             icon_FolderDisabledEmpty = InspectorUtility.TintTexture(icon_FolderEmpty, InspectorUtility.textDisabledColor);
+            
+            Debug.Log("Folder System: hierarchy folder icons rebuilt.");
         }
         
         private static void DrawHierarchyIcon_Folder(int instanceID, Rect position)
         {
             // check for valid draw
             if (Event.current.type != EventType.Repaint) { return; }
+
+            // rebuild if textures null
+            if (!icon_FolderActiveEmpty || !icon_FolderActiveFull || !icon_FolderDisabledEmpty || !icon_FolderDisabledFull)
+            {
+                CreateHierarchyIcon_Folder();
+            }
             
             GameObject gameObject = EditorUtility.InstanceIDToObject(instanceID) as GameObject;
             if (gameObject != null)
