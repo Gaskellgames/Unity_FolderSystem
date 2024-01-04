@@ -7,7 +7,7 @@ Extends Unity by adding in custom folder visuals in the scene hierarchy and proj
 
 There are many designs, each unique and easy to identify:
 
-<a href="https://imgur.com/X0mlHlm.png"><img src="https://imgur.com/X0mlHlm.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/cUAclHk.png"><img src="https://imgur.com/cUAclHk.png" title="source: imgur.com" /></a>
 
 
 # How can I add more project folder designs?
