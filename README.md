@@ -14,7 +14,7 @@ There are many designs, each unique and easy to identify:
 
 Simply add a new texture (256x256) into the Textures folder of the Folder System files, and the texture will auto-apply to any folder of the same ame.
 
-<a href="https://imgur.com/X3tNANq.png"><img src="https://imgur.com/X3tNANq.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/aXK4quh.png"><img src="https://imgur.com/aXK4quh.png" title="source: imgur.com" /></a>
 
 
 # Why use inspector folders?
