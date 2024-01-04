@@ -12,7 +12,7 @@ There are many designs, each unique and easy to identify:
 
 # How can I add more project folder designs?
 
-Simply add a new texture (256x256) into the Textures folder of the Folder System files, and the texture will auto-apply to any folder of the same ame.
+Simply add a new texture (256x256) into the Textures folder of the Folder System files, and the texture will auto-apply to any folder of the same name.
 
 <a href="https://imgur.com/aXK4quh.png"><img src="https://imgur.com/aXK4quh.png" title="source: imgur.com" /></a>
 
