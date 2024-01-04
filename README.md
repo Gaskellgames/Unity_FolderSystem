@@ -28,9 +28,7 @@ Two new menu items: "Create Folder" and "Create Folder Parent" have been added t
 
 As projects get bigger, they tend to get cluttered in the scene. It's very helpful if you can group them together into clear visual groups:
 
-<a href="https://imgur.com/JdblUyr.png"><img src="https://imgur.com/JdblUyr.png" title="source: imgur.com" /></a>
-
-<a href="https://imgur.com/x1EjGcS.png"><img src="https://imgur.com/x1EjGcS.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/y5N3Mej.png"><img src="https://imgur.com/y5N3Mej.png" title="source: imgur.com" /></a>
 
 
 # How can I customise the inspector folders?
