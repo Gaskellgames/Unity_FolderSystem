@@ -1,5 +1,4 @@
 ﻿#if UNITY_EDITOR
-using Gaskellgames;
 using UnityEngine;
 
 /// <summary>
@@ -37,9 +36,9 @@ namespace Gaskellgames.FolderSystem
 
         //----------------------------------------------------------------------------------------------------
 
-        #region Editor
+        #region EditorLoop
 
-        private void OnDrawGizmos()
+        private void OnValidate()
         {
             // remove all other components
             foreach (Component component in gameObject.GetComponents<Component>())
@@ -49,12 +48,6 @@ namespace Gaskellgames.FolderSystem
                     DestroyImmediate(component);
                     Debug.Log(component.name + "destroyed: Folders cannot contain other components.");
                 }
-            }
-            
-            // keep tag as EditorOnly
-            if (!gameObject.CompareTag("EditorOnly"))
-            {
-                gameObject.tag = "EditorOnly";
             }
         }
 
